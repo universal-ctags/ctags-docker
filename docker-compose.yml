@@ -1,0 +1,8 @@
+version: '2'
+services:
+  cli:
+    image: universal-ctags/ctags-docker:latest
+    build:
+      context: .
+    volumes:
+      - '.:/workspace'
