@@ -1,2 +1,2 @@
 #!/bin/sh
-docker run -v=$(pwd):/workspace universal-ctags/ctags-docker:latest $@
+docker run --rm -v=$(pwd):/workspace universalctags/ctags-docker:latest $@
