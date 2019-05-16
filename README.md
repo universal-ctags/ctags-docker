@@ -8,7 +8,7 @@ Run [Universal CTags](https://github.com/universal-ctags/ctags) from a docker
 container.
 
 - Ensure you have docker installed
-- `sudo curl https://raw.githubusercontent.com/universal-ctags/ctags-docker/master/uctags > /usr/local/bin/uctags`
+- `curl https://raw.githubusercontent.com/universal-ctags/ctags-docker/master/uctags | sudo tee /usr/local/bin/uctags`
 - `sudo chmod +x /usr/local/bin/uctags`
 
 Run with `uctags <arguments>`. Docker should automatically fetch the image
